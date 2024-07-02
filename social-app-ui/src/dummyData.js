@@ -54,7 +54,7 @@ export const Users = [
 export const Posts = [
   {
     id: 1,
-    desc: "Love For All, Hatred For None.",
+    desc: "Beautiful View",
     photo: "assets/post/1.jpeg",
     date: "5 mins ago",
     userId: 1,
@@ -121,7 +121,7 @@ export const Posts = [
   },
   {
     id: 9,
-    desc: "Change the world by being yourself.",
+    desc: "Smile Always",
     photo: "assets/post/9.jpeg",
     date: "5 days ago",
     userId: 9,
