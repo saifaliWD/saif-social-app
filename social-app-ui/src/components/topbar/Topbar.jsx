@@ -1,5 +1,7 @@
 import "./topbar.css";
 import { Search, Person, Chat, Notifications } from '@mui/icons-material';
+import LogoutIcon from '@mui/icons-material/Logout';
+
 import { Link } from "react-router-dom";
 
 export default function Topbar() {
@@ -37,6 +39,7 @@ export default function Topbar() {
           </div>
         </div>
         <Link to="/profile"><img src="/assets/person/1.jpeg" alt="" className="topbarImg"/></Link>
+        <Link to="/register" className="logouticon"> <LogoutIcon /> </Link>
       </div>
     </div>
   );

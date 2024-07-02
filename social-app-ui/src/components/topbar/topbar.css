@@ -60,6 +60,9 @@
   margin-right: 10px;
   font-size: 14px;
   cursor: pointer;
+  color: white;
+  text-decoration: none;
+  outline: none;
 }
 
 .topbarIcons {
@@ -92,5 +95,9 @@
   height: 32px;
   border-radius: 50%;
   object-fit: cover;
+  cursor: pointer;
+}
+.logouticon{
+  color: white;
   cursor: pointer;
 }
